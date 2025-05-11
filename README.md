@@ -327,13 +327,15 @@ tail -f /opt/popcache/logs/stderr.log
 ```
 tail -f /opt/popcache/logs/stdout.log
 ```
+
 ![image](https://github.com/user-attachments/assets/36db08b7-4fdb-443a-844c-a4dfd1e618e1)
 
-```
+
 - Monitor system service logs:
 ```
 sudo journalctl -u popcache -f
 ```
+
 ![image](https://github.com/user-attachments/assets/2209d322-d5b4-4c55-82a7-0dd8254a54ff)
 
 - Health check:
