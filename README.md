@@ -19,6 +19,8 @@ Airtable link: https://airtable.com/apph9N7T0WlrPqnyc/pagSLmmUFNFbnKVZh/form
 
 **Note**: Only users who received an email invitation are eligible to run this node.
 
+### ***You need to choose only one method to run your Pipe Testnet Node, either using Docker or using a Systemd service.***!
+
 ## INSTALLATION ***Using Docker***:
 
 ### 1. Stop Devnet Node (if previously installed):
