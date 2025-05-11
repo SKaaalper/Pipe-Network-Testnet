@@ -20,8 +20,8 @@ Airtable link: https://airtable.com/apph9N7T0WlrPqnyc/pagSLmmUFNFbnKVZh/form
 **Note**: Only users who received an email invitation are eligible to run this node.
 
 You need to choose only one method to run your Pipe Testnet Node, either using Docker or using a Systemd service!
-1. [Docker Installation](https://github.com/SKaaalper/Pipe-Network-Testnet?tab=readme-ov-file#installation-using-docker)
-2. [Systemd service Installation](https://github.com/SKaaalper/Pipe-Network-Testnet?tab=readme-ov-file#installation-using-systemd-service)
+- [Docker Installation](https://github.com/SKaaalper/Pipe-Network-Testnet?tab=readme-ov-file#installation-using-docker)
+- [Systemd Service Installation](https://github.com/SKaaalper/Pipe-Network-Testnet?tab=readme-ov-file#installation-using-systemd-service)
 
 ## INSTALLATION ***Using Docker***:
 
