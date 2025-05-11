@@ -34,6 +34,14 @@ sudo systemctl disable pop.service
 sudo apt update && sudo apt install libssl-dev ca-certificates docker.io -y
 ```
 
+- Ensure the required ports (443 and 80) are open:
+```
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+sudo ufw reload
+sudo ufw status
+```
+
 ### 3. Optimize Network Settings (Recommended):
 ```
 sudo bash -c 'cat > /etc/sysctl.d/99-popcache.conf << EOL
@@ -193,6 +201,14 @@ https://your-vps-ip/state
 ### 1. Update Packages & Install Dependencies
 ```
 sudo apt update && sudo apt install libssl-dev ca-certificates -y
+```
+
+- Ensure the required ports (443 and 80) are open:
+```
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+sudo ufw reload
+sudo ufw status
 ```
 
 ### 2. Optimize Network Settings:
