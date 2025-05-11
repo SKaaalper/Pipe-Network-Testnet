@@ -8,13 +8,14 @@ Airtable link: https://airtable.com/apph9N7T0WlrPqnyc/pagSLmmUFNFbnKVZh/form
 
 ## Testnet Info's [CLICK HERE](https://pipe.network/blog/announcing-pipequest)
 
-| Resource    | Requirement |
-| ----------- | ----------- |
-| CPU         | 4 Cores     |
-| RAM         | 16 GB       |
-| Storage     | 100 GB SSD  |
-| Internet    | 1 Gbps      |
-| Last Update | 10-05-2025  |
+| **Resource**   | **Requirement**  |
+|----------------|------------------|
+| CPU            | 4 Cores          |
+| RAM            | 16 GB            |
+| Storage        | 100 GB SSD       |
+| Internet       | 1 Gbps           |
+| Last Update    | 10-05-2025       |
+
 
 **Note**: Only users who received an email invitation are eligible to run this node.
 
