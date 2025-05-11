@@ -38,8 +38,6 @@ sudo apt update && sudo apt install libssl-dev ca-certificates docker.io -y
 ```
 sudo ufw allow 443/tcp
 sudo ufw allow 80/tcp
-sudo ufw reload
-sudo ufw status
 ```
 
 ### 3. Optimize Network Settings (Recommended):
@@ -207,8 +205,6 @@ sudo apt update && sudo apt install libssl-dev ca-certificates -y
 ```
 sudo ufw allow 443/tcp
 sudo ufw allow 80/tcp
-sudo ufw reload
-sudo ufw status
 ```
 
 ### 2. Optimize Network Settings:
