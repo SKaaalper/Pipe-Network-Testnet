@@ -187,7 +187,7 @@ sudo journalctl -u popcache -f
 
 - Health check:
 ```
-curl http://localhost/health
+curl http://YOUR-VPS-IP/health
 ```
 ![image](https://github.com/user-attachments/assets/c7f5e964-80cc-439d-bfc4-23822589fcb9)
 
