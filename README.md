@@ -27,8 +27,8 @@ You need to choose only one method to run your Pipe Testnet Node, either using D
 
 ### 1. Stop Devnet Node (if previously installed):
 ```
-sudo systemctl stop pop.service
-sudo systemctl disable pop.service
+sudo systemctl stop pipe-pop.service
+sudo systemctl disable pipe-pop.service
 ```
 
 ### 2. Update Packages & Install Dependencies:
