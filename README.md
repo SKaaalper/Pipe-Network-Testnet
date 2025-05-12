@@ -184,7 +184,8 @@ docker ps
 docker logs -f popnode
 ```
 
-![image](https://github.com/user-attachments/assets/6085f4ec-6a72-4fc7-b73d-27bc59ca1114)
+![image](https://github.com/user-attachments/assets/8e4d0639-e899-4a1b-bb77-905a95334a76)
+
 
 ### 12. Check Node Health:
 - From terminal (replace `your-vps-ip` with actual `IP`):
