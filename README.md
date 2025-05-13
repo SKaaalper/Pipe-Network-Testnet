@@ -166,6 +166,8 @@ sudo systemctl status popcache
 ```
 ![image](https://github.com/user-attachments/assets/7eac5cb2-2652-4520-b0b6-72f9d4d02e25)
 
+### 9. Verify Node if running properly:
+
 **Note**:
 That `/opt/popcache/logs/stderr.log` contains all error logs since node was first started. so, it's possible that what you're seeing is logs from a long time ago that don't really affect the current state of node anymore, especially if node is running normally now.
 
