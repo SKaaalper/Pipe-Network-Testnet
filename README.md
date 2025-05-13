@@ -166,11 +166,39 @@ sudo systemctl status popcache
 ```
 ![image](https://github.com/user-attachments/assets/7eac5cb2-2652-4520-b0b6-72f9d4d02e25)
 
+**Note**:
+That `/opt/popcache/logs/stderr.log` contains all error logs since node was first started. so, it's possible that what you're seeing is logs from a long time ago that don't really affect the current state of node anymore, especially if node is running normally now.
+
+- To verify current state of node, simply do following, Check if ports `80` and `443` are open:
+```
+ss -tulpn | grep -E ':80|:443'
+```
+![image](https://github.com/user-attachments/assets/fa0cfb73-48c1-47f4-bf6b-88ac95746b4d)
+
+- Check `state`:
+```
+curl -sk https://localhost/state && echo -e "\n"
+```
+
+![image](https://github.com/user-attachments/assets/84454f8b-15b3-4007-9ed3-cac9c59ee931)
+
+- Check `metrics`:
+```
+curl -sk https://localhost/metrics && echo -e "\n"
+```
+
+![image](https://github.com/user-attachments/assets/811dbced-b3a8-4bdf-8f7f-50c6bbce696c)
+
+- Check `health`:
+```
+curl -sk https://localhost/health && echo -e "\n"
+```
+
+![image](https://github.com/user-attachments/assets/4dedd2ef-4ecb-4782-9f9b-703f3e2a6c0b)
+
 - Monitor application logs:
 ```
 tail -f /opt/popcache/logs/stderr.log
-```
-```
 tail -f /opt/popcache/logs/stdout.log
 ```
 
@@ -184,18 +212,6 @@ sudo journalctl -u popcache -f
 
 ![image](https://github.com/user-attachments/assets/ac630f73-c927-49af-9d71-2d588bdbb6c5)
 
-
-- Health check:
-```
-curl http://YOUR-VPS-IP/health
-```
-![image](https://github.com/user-attachments/assets/c7f5e964-80cc-439d-bfc4-23822589fcb9)
-
-- Or check in browser:
-```
-https://YOUR-VPS-IP/state
-```
-![image](https://github.com/user-attachments/assets/306793d6-6064-4076-93d7-1a798f60f291)
 
 **📚 Reference**:
 **Official Docs**: https://docs.pipe.network/nodes/testnet
