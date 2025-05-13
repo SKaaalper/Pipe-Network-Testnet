@@ -217,3 +217,7 @@ sudo journalctl -u popcache -f
 
 **📚 Reference**:
 **Official Docs**: https://docs.pipe.network/nodes/testnet
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SKaaalper&color=yellow" alt="Profile Views" />
+</p>
