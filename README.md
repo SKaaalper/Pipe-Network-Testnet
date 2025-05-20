@@ -215,6 +215,41 @@ sudo journalctl -u popcache -f
 ![image](https://github.com/user-attachments/assets/ac630f73-c927-49af-9d71-2d588bdbb6c5)
 
 
+### `Pop ID` error Guide:
+
+1. Stop the service:
+```
+sudo systemctl stop popcache
+```
+
+2. Delete the node state file (to fix hardware mismatch):
+```
+rm /opt/popcache/.pop_state.json
+```
+
+3. Edit your config (optional):
+```
+nano /opt/popcache/config.json
+```
+- Change your `Pop Name`
+
+4. Start the service:
+```
+sudo systemctl start popcache
+```
+
+5. Check service status:
+```
+sudo systemctl status popcache
+```
+
+6. Check you `Node ID`:
+```
+curl -sk https://localhost/state && echo -e "\n"
+```
+
+![image](https://github.com/user-attachments/assets/fef2feca-1f2a-4854-be52-fd201069742b)
+
 **📚 Reference**:
 **Official Docs**: https://docs.pipe.network/nodes/testnet
 
