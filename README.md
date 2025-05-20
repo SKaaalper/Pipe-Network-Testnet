@@ -250,6 +250,8 @@ curl -sk https://localhost/state && echo -e "\n"
 
 ![image](https://github.com/user-attachments/assets/fef2feca-1f2a-4854-be52-fd201069742b)
 
+**Configure your [Pipe Checker bot](https://github.com/SKaaalper/pipeNode-cheker-Stats)**
+
 **📚 Reference**:
 **Official Docs**: https://docs.pipe.network/nodes/testnet
 
