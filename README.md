@@ -229,6 +229,7 @@ rm /opt/popcache/.pop_state.json
 
 3. Edit your config (optional):
 ```
+cd /opt/popcache
 nano /opt/popcache/config.json
 ```
 - Change your `Pop Name`
